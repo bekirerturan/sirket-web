@@ -7,18 +7,24 @@ export default function Footer() {
     { name: "Anasayfa", href: "/" },
     { name: "Hizmetler", href: "/hizmetler" },
     { name: "Hakkımızda", href: "/hakkimizda" },
-    { name: "Portfolyo", href: "/portfolyo" },
-    { name: "İletişim", href: "/iletisim" },
-    { name: "Blog", href: "/blog" }
+    { name: "Blog", href: "/blog" },
+    { name: "İletişim", href: "/iletisim" }
   ];
 
   const serviceLinks = [
-    { name: "Web Tasarım", href: "/kurumsal-web-tasarim" },
-    { name: "E-ticaret", href: "/e-ticaret" },
-    { name: "Mobil Uygulama", href: "/mobil-uygulama" },
+    { name: "Web Tasarım", href: "/kurumsal" },
+    { name: "E-ticaret", href: "/eticaret" },
+    { name: "Sosyal Medya Yönetimi", href: "/sosyal" },
     { name: "SEO Hizmetleri", href: "/seo" },
-    { name: "Grafik Tasarım", href: "/grafik-tasarim" },
-    { name: "Danışmanlık", href: "/danismanlik" }
+    { name: "Grafik Tasarım", href: "/grafiktasarim" },
+    { name: "CRM", href: "/crm" }
+  ];
+
+  const socialLinks = [
+    { Icon: Facebook, href: "#" },
+    { Icon: Twitter, href: "#" },
+    { Icon: Instagram, href: "https://www.instagram.com/hefacoders/?igsh=bnVpb3psZ3QwNDg2&utm_source=qr#" },
+    { Icon: Linkedin, href: "#" }
   ];
 
   return (
@@ -30,7 +36,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="text-3xl font-bold text-white mb-6 inline-block">
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Şirketim
+                HEFA
               </span>
             </Link>
             <p className="text-gray-400 text-lg leading-relaxed mb-6 max-w-md">
@@ -42,15 +48,17 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors duration-300">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span>info@sirketim.com</span>
+                <a href="mailto:hefayazilim@gmail.com" className="hover:underline">
+                  hefayazilim@gmail.com
+                </a>
               </div>
               <div className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors duration-300">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span>+90 (212) 555 0123</span>
+                <span>+90 536 320 9028</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors duration-300">
                 <MapPin className="w-5 h-5 text-blue-400" />
-                <span>İstanbul, Türkiye</span>
+                <span>Kocaeli, Türkiye</span>
               </div>
             </div>
           </div>
@@ -96,10 +104,10 @@ export default function Footer() {
             {/* Social Media */}
             <div className="flex items-center gap-2">
               <span className="text-gray-400 mr-4">Bizi Takip Edin:</span>
-              {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
+              {socialLinks.map(({ Icon, href }, index) => (
                 <a
                   key={index}
-                  href="#"
+                  href={href}
                   className="p-3 bg-gray-800 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 text-gray-400 hover:text-white rounded-full transition-all duration-300 transform hover:scale-110"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -126,23 +134,13 @@ export default function Footer() {
 
       {/* Bottom Footer */}
       <div className="border-t border-gray-800 py-6">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-          <p className="text-gray-400">
-            © 2025 Şirketim. Tüm Hakları Saklıdır.
-          </p>
-          <div className="flex gap-6 mt-4 md:mt-0">
-            <Link to="/gizlilik" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
-              Gizlilik Politikası
-            </Link>
-            <Link to="/kullanim-kosullari" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
-              Kullanım Koşulları
-            </Link>
-            <Link to="/kvkk" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
-              KVKK
-            </Link>
-          </div>
-        </div>
-      </div>
+  <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-center items-center text-center md:text-left">
+    <p className="text-gray-400">
+      © 2025 HEFA. Tüm Hakları Saklıdır.
+    </p>
+  </div>
+</div>
+
     </footer>
   );
 }

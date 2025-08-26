@@ -132,7 +132,7 @@ export default function Hizmetler() {
       color: "from-blue-500 to-cyan-500",
       bgColor: "bg-gradient-to-br from-blue-500/10 to-cyan-500/10",
       borderColor: "border-blue-500/20 hover:border-blue-500/40",
-      link: "/dijital-pazarlama"
+      link: "/Dijital"
     },
     {
       id: 2,
@@ -143,7 +143,7 @@ export default function Hizmetler() {
       color: "from-green-500 to-emerald-500",
       bgColor: "bg-gradient-to-br from-green-500/10 to-emerald-500/10",
       borderColor: "border-green-500/20 hover:border-green-500/40",
-      link: "/seo"
+      link: "/Seo"
     },
     {
       id: 3,
@@ -154,7 +154,7 @@ export default function Hizmetler() {
       color: "from-purple-500 to-violet-500",
       bgColor: "bg-gradient-to-br from-purple-500/10 to-violet-500/10",
       borderColor: "border-purple-500/20 hover:border-purple-500/40",
-      link: "/kurumsal-web-tasarim"
+      link: "/Kurumsal"
     },
     {
       id: 4,
@@ -165,7 +165,7 @@ export default function Hizmetler() {
       color: "from-orange-500 to-red-500",
       bgColor: "bg-gradient-to-br from-orange-500/10 to-red-500/10",
       borderColor: "border-orange-500/20 hover:border-orange-500/40",
-      link: "/e-ticaret"
+      link: "/ETicaret"
     },
     {
       id: 5,
@@ -176,7 +176,7 @@ export default function Hizmetler() {
       color: "from-pink-500 to-rose-500",
       bgColor: "bg-gradient-to-br from-pink-500/10 to-rose-500/10",
       borderColor: "border-pink-500/20 hover:border-pink-500/40",
-      link: "/sosyal-medya"
+      link: "/Sosyal"
     },
     {
       id: 6,
@@ -187,7 +187,7 @@ export default function Hizmetler() {
       color: "from-yellow-500 to-amber-500",
       bgColor: "bg-gradient-to-br from-yellow-500/10 to-amber-500/10",
       borderColor: "border-yellow-500/20 hover:border-yellow-500/40",
-      link: "/google-ads"
+      link: "/Googleads"
     },
     {
       id: 7,
@@ -198,7 +198,7 @@ export default function Hizmetler() {
       color: "from-indigo-500 to-blue-600",
       bgColor: "bg-gradient-to-br from-indigo-500/10 to-blue-600/10",
       borderColor: "border-indigo-500/20 hover:border-indigo-500/40",
-      link: "/grafik-tasarim"
+      link: "/GrafikTasarim"
     },
     {
       id: 8,
@@ -209,7 +209,7 @@ export default function Hizmetler() {
       color: "from-teal-500 to-green-600",
       bgColor: "bg-gradient-to-br from-teal-500/10 to-green-600/10",
       borderColor: "border-teal-500/20 hover:border-teal-500/40",
-      link: "/icerik-pazarlama"
+      link: "/IcerikPazarlama"
     },
     {
       id: 9,
@@ -220,7 +220,7 @@ export default function Hizmetler() {
       color: "from-gray-600 to-gray-800",
       bgColor: "bg-gradient-to-br from-gray-600/10 to-gray-800/10",
       borderColor: "border-gray-600/20 hover:border-gray-600/40",
-      link: "/crm"
+      link: "/Crm"
     }
   ];
 
@@ -244,11 +244,12 @@ export default function Hizmetler() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold mb-6 sm:mb-8">
-              <span className="text-white">Hizmet</span>
-              <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-green-400 bg-clip-text text-transparent">
-                lerimiz
-              </span>
-            </h1>
+  <span className="text-white">Hizmet</span>
+  <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-green-400 bg-clip-text text-transparent">
+    lerimiz
+  </span>
+</h1>
+
             
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-8 sm:mb-12 px-4 sm:px-0">
               Dijital dünyada başarılı olmak için ihtiyacınız olan tüm hizmetleri tek çatı altında sunuyoruz. 

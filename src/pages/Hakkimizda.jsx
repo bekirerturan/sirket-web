@@ -178,11 +178,12 @@ export default function Hakkimizda() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold mb-6 sm:mb-8">
-              <span className="text-white">Hakkı</span>
-              <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-green-400 bg-clip-text text-transparent">
-                mızda
-              </span>
-            </h1>
+  <span className="text-white">Hakkı</span>
+  <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-green-400 bg-clip-text text-transparent">
+    mızda
+  </span>
+</h1>
+
             
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 max-w-5xl mx-auto leading-relaxed mb-8 sm:mb-12 px-4 sm:px-0">
               Dijital çağın hızla gelişen dünyasında var olmak, sadece teknolojiyi takip etmekle değil, 

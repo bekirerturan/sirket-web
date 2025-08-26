@@ -113,12 +113,13 @@ export default function Contact() {
         
         <div className="max-w-7xl mx-auto text-center relative">
           <div className="animate-fade-in-up">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-              İletişime
-              <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Geçin
-              </span>
-            </h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-normal">
+  İletişime{" "}
+  <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+    Geçin
+  </span>
+</h1>
+
             
             <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-12">
               Dijital projeleriniz için profesyonel çözümler sunuyoruz. 

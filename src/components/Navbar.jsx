@@ -34,7 +34,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="text-3xl font-bold text-white">
           <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Şirketim
+            HEFA
           </span>
         </Link>
 

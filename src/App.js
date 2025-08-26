@@ -6,7 +6,15 @@ import ScrollToTop from './components/ScrollToTop';
 import Hakkimizda from "./pages/Hakkimizda";
 import Blog from "./pages/Blog"; // Blog sayfasını import et
 import Iletisim from "./pages/Iletisim"; 
-
+import Dijital from "./pages/Dijital";
+import Seo from "./pages/Seo";
+import Kurumsal from "./pages/Kurumsal";
+import ETicaret from "./pages/ETicaret";
+import Sosyal from "./pages/Sosyal";
+import Googleads from "./pages/Googleads";
+import GrafikTasarim from "./pages/GrafikTasarim";
+import IcerikPazarlama from "./pages/IcerikPazarlama";
+import Crm from "./pages/Crm";
 function App() {
   return (
     <Router>
@@ -20,15 +28,15 @@ function App() {
         <Route path="/iletisim" element={<Iletisim />} />
         
         {/* Hizmet detay sayfaları için route'lar */}
-        <Route path="/dijital-pazarlama" element={<div>Dijital Pazarlama detay sayfası yakında...</div>} />
-        <Route path="/seo" element={<div>SEO detay sayfası yakında...</div>} />
-        <Route path="/kurumsal-web-tasarim" element={<div>Kurumsal Web Tasarım detay sayfası yakında...</div>} />
-        <Route path="/e-ticaret" element={<div>E-Ticaret detay sayfası yakında...</div>} />
-        <Route path="/sosyal-medya" element={<div>Sosyal Medya detay sayfası yakında...</div>} />
-        <Route path="/google-ads" element={<div>Google Ads detay sayfası yakında...</div>} />
-        <Route path="/grafik-tasarim" element={<div>Grafik Tasarım detay sayfası yakında...</div>} />
-        <Route path="/icerik-pazarlama" element={<div>İçerik Pazarlama detay sayfası yakında...</div>} />
-        <Route path="/crm" element={<div>CRM detay sayfası yakında...</div>} />
+        <Route path="/dijital" element={<Dijital />} />
+        <Route path="/seo" element={<Seo />} />
+        <Route path="/kurumsal" element={<Kurumsal />} />
+        <Route path="/eticaret" element={<ETicaret />} />
+        <Route path="/sosyal" element={<Sosyal />} />
+        <Route path="/googleads" element={<Googleads />} />
+        <Route path="/grafiktasarim" element={<GrafikTasarim />} />
+        <Route path="/icerikpazarlama" element={<IcerikPazarlama />} />
+        <Route path="/crm" element={<Crm />} />
       </Routes>
     </Router>
   );
